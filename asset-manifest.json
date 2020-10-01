@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/odysseaspapadimas.github.io/weather/static/css/main.a3d58ec9.chunk.css",
+    "main.js": "/odysseaspapadimas.github.io/weather/static/js/main.30640039.chunk.js",
+    "main.js.map": "/odysseaspapadimas.github.io/weather/static/js/main.30640039.chunk.js.map",
+    "runtime-main.js": "/odysseaspapadimas.github.io/weather/static/js/runtime-main.10e2253b.js",
+    "runtime-main.js.map": "/odysseaspapadimas.github.io/weather/static/js/runtime-main.10e2253b.js.map",
+    "static/js/2.8309a81e.chunk.js": "/odysseaspapadimas.github.io/weather/static/js/2.8309a81e.chunk.js",
+    "static/js/2.8309a81e.chunk.js.map": "/odysseaspapadimas.github.io/weather/static/js/2.8309a81e.chunk.js.map",
+    "index.html": "/odysseaspapadimas.github.io/weather/index.html",
+    "precache-manifest.e98636bee76903c8040b4f365c66184d.js": "/odysseaspapadimas.github.io/weather/precache-manifest.e98636bee76903c8040b4f365c66184d.js",
+    "service-worker.js": "/odysseaspapadimas.github.io/weather/service-worker.js",
+    "static/css/main.a3d58ec9.chunk.css.map": "/odysseaspapadimas.github.io/weather/static/css/main.a3d58ec9.chunk.css.map",
+    "static/js/2.8309a81e.chunk.js.LICENSE.txt": "/odysseaspapadimas.github.io/weather/static/js/2.8309a81e.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/odysseaspapadimas.github.io/weather/static/media/background-phones.9085f139.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10e2253b.js",
+    "static/js/2.8309a81e.chunk.js",
+    "static/css/main.a3d58ec9.chunk.css",
+    "static/js/main.30640039.chunk.js"
+  ]
+}
