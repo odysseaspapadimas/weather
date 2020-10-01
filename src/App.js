@@ -1,24 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { fetchWeather } from "./API/fetchWeather";
+import "./App.css";
+import WeatherCard from "./WeatherCard";
 
 function App() {
+  const [query, setQuery] = useState('');
+  const [data, setData] = useState();
+
+  const search = async (e) => {
+    if(e.key === 'Enter') {
+      const weatherData = await fetchWeather(query);
+      setData(weatherData);
+    }
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <input 
+        className="search"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        onKeyPress={search}
+      />
+
+      {data === undefined ? '' : <WeatherCard data={data} />}
     </div>
   );
 }
